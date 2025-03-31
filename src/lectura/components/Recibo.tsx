@@ -68,7 +68,7 @@ export const Recibo = ({ medidor, lectura }: { medidor: string, lectura: string 
                 <div className="recibo-container" id="recibo">
 
                     <div className="recibo-header">
-                        <h2>A.A.S.P.S.A.S</h2>
+                        <h2>A.A.P.S.A.S</h2>
                         <p>Empresa Local de Agua Potable Presto</p>
                     </div>
                     <div className="linea" ></div>
