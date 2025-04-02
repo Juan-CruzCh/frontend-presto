@@ -41,7 +41,7 @@ export const Autenticacion = () => {
     return (
         <div className="flex justify-center items-center min-h-screen  p-4">
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
-                <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">AASPSAS - PRESTO</h2>
+                <h2 className="text-3xl font-bold text-gray-800 text-center mb-6"> "A.A.P.S.B.A.S.P" - PRESTO</h2>
                 <p className="text-center text-gray-600 mb-4">Bienvenido, por favor ingrese sus datos</p>
 
 

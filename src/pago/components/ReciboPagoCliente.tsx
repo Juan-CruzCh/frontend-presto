@@ -41,13 +41,13 @@ export const ReciboPagoCliente = ({ medidor }: { medidor: string }) => {
                 >
                     <header>
                         <h2 className="text-center font-extrabold text-2xl">
-                            ASOCIACIÓN DE AGUA POTABLE Y SANEAMIENTO
+                            ASOCIACIÓN DE AGUA POTABLE Y SANEAMIENTO BASICO
                         </h2>
                         <h3 className="text-center font-bold text-xl mt-1">
                             "APÓSTOL SANTIAGO DE PRESTO"
                         </h3>
                         <h4 className="text-center font-semibold text-lg mt-1">
-                            "AASPAS - PRESTO"
+                            "A.A.P.S.B.A.S.P"
                         </h4>
                     </header>
 

@@ -9,6 +9,8 @@ import { v6 } from 'uuid'
 import '../css/recibo.css'
 import { Loader } from "../../core/components/Loader";
 import { formateaFecha } from "../../core/util/formatearFecha";
+import logo from './../../assets/logo/logo.png'
+
 export const Recibo = ({ medidor, lectura }: { medidor: string, lectura: string }) => {
     const [dataRecibo, setDataRecibo] = useState<ReciboDataI>()
     const [lecturas, setLecturas] = useState<LecturasReciboI[]>([])
@@ -68,10 +70,9 @@ export const Recibo = ({ medidor, lectura }: { medidor: string, lectura: string 
                 <div className="recibo-container" id="recibo">
 
                     <div className="recibo-header">
-                        <h2>A.A.P.S.A.S</h2>
-                        <p>Empresa Local de Agua Potable Presto</p>
+                        <img src={logo} width={400} />
                     </div>
-                    <div className="linea" ></div>
+
                     <div className="recibo-info">
                         <p><span>Código Cliente:</span> {dataRecibo.codigoCliente}</p>
                         <p><span>Nro Medidor:</span> {dataRecibo.numeroMedidor}</p>
